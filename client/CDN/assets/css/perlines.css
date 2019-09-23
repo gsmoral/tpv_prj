@@ -1,0 +1,60 @@
+
+/*
+COLORS WP
+
+
+Botones - enlaces 
+Azul: #0085ba
+
+Menu lateral
+Gris oscuro: ##23282d
+Gris oscuro: #191e23
+
+
+*/
+
+body {
+    background-color: #ffffff!important;
+}
+
+.perlines-navbar-wrapper {
+    
+
+}
+
+
+.perlines-navbar-logo {
+
+    background-color: #ffffff!important;
+
+}
+
+.perlines-page-header {
+    background-color: #0085ba!important;
+}
+
+
+.pcoded-inner-navbar  {
+    background-color: #23282d!important;
+}
+
+
+
+.pcoded[theme-layout="vertical"] .pcoded-navbar[active-item-theme="theme1"] 
+.pcoded-item li .pcoded-submenu li.active > a, .pcoded[theme-layout="vertical"] 
+.pcoded-navbar[active-item-theme="theme1"] .pcoded-item li .pcoded-submenu li:hover > a {
+    color: #4fc3f7;
+    position: relative;
+}
+
+.pcoded .pcoded-navbar[navbar-theme="theme1"] .pcoded-item .pcoded-hasmenu .pcoded-submenu li.active > a {
+    color: #0085ba;
+    background-color: transparent;
+}
+
+
+.pcoded[theme-layout="vertical"] .pcoded-navbar[active-item-theme="theme1"] .pcoded-item > li.active:hover > a, .pcoded[theme-layout="vertical"] .pcoded-navbar[active-item-theme="theme1"] .pcoded-item > li.active > a, .pcoded[theme-layout="vertical"] .pcoded-navbar[active-item-theme="theme1"] .pcoded-item > li.pcoded-trigger:hover > a, .pcoded[theme-layout="vertical"] .pcoded-navbar[active-item-theme="theme1"] .pcoded-item > li.pcoded-trigger > a, .pcoded[theme-layout="vertical"] .pcoded-navbar[active-item-theme="theme1"] .pcoded-item > li:hover:hover > a, .pcoded[theme-layout="vertical"] .pcoded-navbar[active-item-theme="theme1"] .pcoded-item > li:hover > a {
+    background-color: #0085ba;
+    font-weight: 500;
+    color: #fff;
+}

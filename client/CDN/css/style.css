@@ -1,0 +1,142 @@
+.container{
+	margin-top: 10px;
+}
+
+/*******************************/
+/*** Menú superior           ***/
+/*******************************/
+
+.menu{
+	background-color: #62789c;
+	border-radius: 2px;
+	border: 1px solid #c6c8cc;
+	margin-bottom: 15px;
+	min-height: 50px;
+}
+
+.menu .title a{
+	color: #FFF;
+}
+
+.menu .conectar a{
+	color: #FFF;
+}
+
+.opciones-menu {
+	margin-top: 5px;
+	min-width: 150px;
+	text-transform: uppercase;
+}
+
+.title {
+	color: #FFF;
+	font-size: 1.5em;
+}
+
+.menu2{
+	padding-bottom: 20px;
+}
+
+
+.faright {
+	margin-left: 20px;
+}
+
+/*******************************/
+/*** Pantalla principal      ***/
+/*******************************/
+
+/* Caracteristicas generales de los botones */
+.total{
+	background-color: #dfe1e6;
+	border-radius: 5px;
+	border: 1px solid #c6c8cc;
+	margin-bottom: 5px;
+	text-align: right;
+	min-height: 120px;
+	font-size: 1.9em;
+	text-transform: uppercase;
+}
+
+/* Caracteristicas generales de los botones imprimir-cobrar*/
+.boton_inferior{
+	border-radius: 2px;
+	border: 1px solid #c6c8cc;
+	margin-bottom: 5px;
+	text-align: center;
+	width: 100%;
+	min-height: 120px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+
+/* Caracteristicas de la lista de productos adquiridos */
+.productos a{
+	color: #62789c;
+}
+
+.productos span{
+	margin-left: 10px;
+}
+
+/*******************************/
+/*** Barra busqueda          ***/
+/*******************************/
+.search {
+	margin: 20px 0;
+	padding-left: 20px;
+}
+
+/*******************************/
+/*** Añadir marca           ***/
+/*******************************/
+
+.addmarca {
+	padding: 5px 0 0 40px;
+}
+
+.card {
+	border-width: 0px !important;
+}
+
+
+/*******************************/
+/*** The Modal (background)  ***/
+/*******************************/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-contenido {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
